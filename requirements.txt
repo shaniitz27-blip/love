@@ -1,13 +1,9 @@
 flask
 requests
 beautifulsoup4
-time
 glob
-json
 subprocess
 threading
-sys
-re
 shutil
 socket
 datetime
