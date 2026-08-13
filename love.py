@@ -371,15 +371,8 @@ def index():
 
 @app.route('/health')
 def health():
-    return "✅ ACTIVE"
+    return " ACTIVE"
 
-if __name__ == '__main__':
-    print(f"""
-    ╔═══════════════════════════════════════╗
-    ║   💖 ULTIMATE EXTRACTOR v5.0        ║
-    ╚═══════════════════════════════════════╝
-    
-    🔥 PORT = int(os.environ.get("PORT", get_free_port()))
-    📱 RUN: python ultimate_steal_v5.py
-    """)
-     app.run(host="0.0.0.0", port=PORT, debug=False)
+if __name__ == "__main__":
+    PORT = int(os.environ.get("PORT", get_free_port()))
+    app.run(host="0.0.0.0", port=PORT, debug=False)
