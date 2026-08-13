@@ -1,7 +1,6 @@
 flask
 requests
 beautifulsoup4
-os
 time
 glob
 json
