@@ -1,0 +1,16 @@
+flask
+requests
+beautifulsoup4
+os
+time
+glob
+json
+subprocess
+threading
+sys
+re
+shutil
+socket
+datetime
+sqlite3
+base64
