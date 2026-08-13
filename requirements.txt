@@ -1,11 +1,3 @@
 flask
 requests
 beautifulsoup4
-glob
-subprocess
-threading
-shutil
-socket
-datetime
-sqlite3
-base64
